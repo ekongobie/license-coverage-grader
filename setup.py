@@ -24,6 +24,7 @@ from setuptools import setup
 
 
 def readme():
+    """Opens and reads the readme file"""
     with open('README.md') as f:
         return f.read()
 
